@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Exp2_S5_Alberto_Agustin_Garcia" id="F7ACD11E-01C1-F30B-B107-A4044B504436" version="3.5">
-<createdBy>svasquez</createdBy>
-<createdTime>2025-09-09 00:47:32 UTC</createdTime>
-<ownerDesignName>Sumativa S5</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>F7ACD11E-01C1-F30B-B107-A4044B504436</designId>
-</OSDM_Design>
