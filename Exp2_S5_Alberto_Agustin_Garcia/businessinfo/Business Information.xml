@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="6185C4DA-9594-AE30-8068-32C59BC7564B">
-<createdBy>svasquez</createdBy>
-<createdTime>2025-09-09 00:47:32 UTC</createdTime>
-<ownerDesignName>Sumativa S5</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</BusinessInfoDesign>
