@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3F6069A4-53E2-F526-8F69-11A21534AA66" name="EXAMEN">
+<createdBy>Flekz13</createdBy>
+<createdTime>2025-09-14 12:21:41 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<engineerTo>
+<item key="882FDD28-50ED-9AE9-CF65-683AF5C28861" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_examen " id="B741691A-4629-8025-1A05-7F98AD7E2EF9">
+<createdBy>Flekz13</createdBy>
+<createdTime>2025-09-14 12:21:56 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<engineerTo>
+<item key="882FDD28-50ED-9AE9-CF65-683AF5C28861" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo" id="2791B7B7-A71B-A1E6-D505-0E70554AB4ED">
+<createdBy>Flekz13</createdBy>
+<createdTime>2025-09-14 12:22:14 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<engineerTo>
+<item key="882FDD28-50ED-9AE9-CF65-683AF5C28861" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_examen" id="D74CA026-A1BF-965E-2BAC-51E2B1D935D6">
+<createdBy>Flekz13</createdBy>
+<createdTime>2025-09-14 12:22:31 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<engineerTo>
+<item key="882FDD28-50ED-9AE9-CF65-683AF5C28861" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_muestra" id="B1C61A85-2A7B-6DF3-3882-41B222A49338">
+<createdBy>Flekz13</createdBy>
+<createdTime>2025-09-14 12:22:48 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<engineerTo>
+<item key="882FDD28-50ED-9AE9-CF65-683AF5C28861" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="condiciones" id="0FE62490-71F7-D4B1-E1FD-630DFFE43D69">
+<createdBy>Flekz13</createdBy>
+<createdTime>2025-09-14 12:23:05 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<engineerTo>
+<item key="882FDD28-50ED-9AE9-CF65-683AF5C28861" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_atencion" id="B3C2019A-6A10-782C-3105-BC08FCB0BBD3">
+<createdBy>Flekz13</createdBy>
+<createdTime>2025-09-14 12:25:51 UTC</createdTime>
+<generatorID>598EC20D-3AF2-310F-570B-3D255588EDBB</generatorID>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<engineerTo>
+<item key="882FDD28-50ED-9AE9-CF65-683AF5C28861" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>33835328-AACB-117E-D48F-3810AE838631</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1000</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_paciente" id="3D9E5938-B0C9-3954-3A8D-7B7B205FE5D2">
+<createdBy>Flekz13</createdBy>
+<createdTime>2025-09-14 12:26:18 UTC</createdTime>
+<generatorID>6A1F8203-2DD1-5041-4AE7-19EDD1DB2C3A</generatorID>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<engineerTo>
+<item key="882FDD28-50ED-9AE9-CF65-683AF5C28861" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>916CFF98-AA14-3D82-824C-4B525890C994</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1000</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="74CF7D3C-3F10-ECF3-2F60-A1CBC7A5E03A" name="EXAMEN PK">
+<createdBy>Flekz13</createdBy>
+<createdTime>2025-09-14 12:22:12 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<engineerTo>
+<item key="882FDD28-50ED-9AE9-CF65-683AF5C28861" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B741691A-4629-8025-1A05-7F98AD7E2EF9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

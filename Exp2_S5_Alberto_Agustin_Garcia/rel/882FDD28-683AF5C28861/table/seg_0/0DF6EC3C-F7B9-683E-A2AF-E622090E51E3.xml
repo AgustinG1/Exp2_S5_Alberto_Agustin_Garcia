@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0DF6EC3C-F7B9-683E-A2AF-E622090E51E3" name="EXAMEN">
+<createdBy>Flekz13</createdBy>
+<createdTime>2025-09-15 00:57:43 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_examen" id="A9D805E0-FD6B-D8D4-C265-331079A6146D">
+<createdBy>Flekz13</createdBy>
+<createdTime>2025-09-15 00:59:58 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigo" id="575AFEE3-60CC-1429-61DC-2C48EB7CF242">
+<createdBy>Flekz13</createdBy>
+<createdTime>2025-09-15 00:59:58 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_examen" id="71E05DC9-2206-1982-1F9D-523030728913">
+<createdBy>Flekz13</createdBy>
+<createdTime>2025-09-15 00:59:58 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_muestra" id="7DB8A48E-8E45-14E4-E408-0B0C02924BA4">
+<createdBy>Flekz13</createdBy>
+<createdTime>2025-09-15 00:59:58 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="condiciones" id="3CC6CDDA-042C-D220-8418-09AC298D95C4">
+<createdBy>Flekz13</createdBy>
+<createdTime>2025-09-15 00:59:58 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATENCION_MEDICA_id_atencion" id="77E2BE02-2597-5671-EC48-2ACA04425EDD">
+<createdBy>Flekz13</createdBy>
+<createdTime>2025-09-15 01:20:34 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1000</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C8CA9F3-D639-1E49-D8E0-8E11864AD908" referredColumn="D7139197-E1BA-8923-CE79-F1D8055AB1FC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5995D184-7136-620C-91CD-FEBD481AEF4F" name="EXAMEN_PK">
+<createdBy>Flekz13</createdBy>
+<createdTime>2025-09-15 00:59:58 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9D805E0-FD6B-D8D4-C265-331079A6146D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4CDEA34C-9ABB-B924-B20E-FEA88829CE14" name="EXAMEN_ATENCION_MEDICA_FK">
+<createdBy>Flekz13</createdBy>
+<createdTime>2025-09-15 01:20:34 UTC</createdTime>
+<generatorID>09232E58-E239-2752-1A86-72B8BEAFAE50</generatorID>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77E2BE02-2597-5671-EC48-2ACA04425EDD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

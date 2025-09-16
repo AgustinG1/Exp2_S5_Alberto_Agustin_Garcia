@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="11B56E1D-78A6-77AB-1EC7-99418997542E" name="REGION">
+<createdBy>Flekz13</createdBy>
+<createdTime>2025-09-15 01:00:29 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_region" id="5F437D49-08DB-8975-0391-1B8E06D06098">
+<createdBy>Flekz13</createdBy>
+<createdTime>2025-09-15 01:01:10 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_region" id="D4D8E6DF-6383-F700-4F28-925677F007AF">
+<createdBy>Flekz13</createdBy>
+<createdTime>2025-09-15 01:01:10 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMUNA_id_comuna" id="2D6C4A35-D865-9B02-6DD2-54BECBF6079B">
+<createdBy>Flekz13</createdBy>
+<createdTime>2025-09-15 01:19:08 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F9D3650-FA5C-D943-0D5C-D43E7D1CA415" referredColumn="D33668BD-445D-4C25-3D57-B75D61912256"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B133E67C-2C46-025F-FB27-927B5442DA8A" name="REGION_PK">
+<createdBy>Flekz13</createdBy>
+<createdTime>2025-09-15 01:01:10 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F437D49-08DB-8975-0391-1B8E06D06098"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D9A3194F-26AE-5E08-1C9D-4D744059B266" name="REGION_COMUNA_FK">
+<createdBy>Flekz13</createdBy>
+<createdTime>2025-09-15 01:19:08 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D6C4A35-D865-9B02-6DD2-54BECBF6079B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

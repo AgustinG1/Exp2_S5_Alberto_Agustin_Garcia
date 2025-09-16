@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="62022D23-114F-9C9B-8A69-12E5FF411AF0" name="PAGO_TARJETA">
+<createdBy>svasquez</createdBy>
+<createdTime>2025-09-09 02:08:36 UTC</createdTime>
+<generatorID>8F96130B-EE2A-0D14-2DF9-3AC269723AF1</generatorID>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_medio_pago" id="FA642C4E-D970-A3B2-C9E5-FDAE31EE3268">
+<createdBy>svasquez</createdBy>
+<createdTime>2025-09-09 02:08:36 UTC</createdTime>
+<generatorID>D63692F3-22A7-A140-171D-AD735B80FC07</generatorID>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1000</dataTypePrecision>
+<ownDataTypeParameters>,1000,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cod_autorizacion" id="85AF832E-9B56-7B8B-F258-E73E18BBF099">
+<createdBy>svasquez</createdBy>
+<createdTime>2025-09-09 02:08:36 UTC</createdTime>
+<generatorID>C74E3ED4-5E43-95CA-C52D-9129658B8C6D</generatorID>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="banco_emisor" id="2FDABF30-3D9D-BAC0-3769-6FD36D202B22">
+<createdBy>svasquez</createdBy>
+<createdTime>2025-09-09 02:08:36 UTC</createdTime>
+<generatorID>8B205AAB-F625-3B86-6961-FF1DC756E4C3</generatorID>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_tarjeta" id="9B369151-5FC9-D59A-1B43-273C8A09EEE5">
+<createdBy>svasquez</createdBy>
+<createdTime>2025-09-09 02:08:36 UTC</createdTime>
+<generatorID>E80C50E7-E0DC-5D5F-5F0A-31AA464C081E</generatorID>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_medio_pago1" id="41E334DC-55F3-D71B-7F0F-88B358CF9853">
+<createdBy>svasquez</createdBy>
+<createdTime>2025-09-09 23:30:40 UTC</createdTime>
+<generatorID>F7D05C2E-2462-C697-A41C-E2CD0D5C8198</generatorID>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1000</dataTypePrecision>
+<ownDataTypeParameters>,1000,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="30356096-AA9E-1207-8AF9-7F287C9C0CCF" referredColumn="CA735836-F7C6-97E5-AFD1-16433B85FE5A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="29FCE4D5-0C6D-79DF-27A4-06A083A05936" name="PAGO_TARJETA_PKv1">
+<createdBy>svasquez</createdBy>
+<createdTime>2025-09-09 23:30:40 UTC</createdTime>
+<generatorID>689D64AA-7952-0D76-1918-5F2C6CB40DC4</generatorID>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41E334DC-55F3-D71B-7F0F-88B358CF9853"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E222E425-C4BC-26CF-9FED-38B470FE410D" name="PAGO_TARJETA_PK">
+<createdBy>svasquez</createdBy>
+<createdTime>2025-09-09 02:08:36 UTC</createdTime>
+<generatorID>C4BB5C02-4663-26C4-8580-6577B8563288</generatorID>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA642C4E-D970-A3B2-C9E5-FDAE31EE3268"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0F154DD4-9073-BA6C-EF51-18CF34669931" name="PAGO_TARJETA_cod_autorizacion_UN">
+<createdBy>svasquez</createdBy>
+<createdTime>2025-09-09 02:08:36 UTC</createdTime>
+<generatorID>6B44E372-0EDC-D98F-2520-9BCA9CA94C31</generatorID>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85AF832E-9B56-7B8B-F258-E73E18BBF099"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BAE69910-FFF4-6E2F-69B9-27E152BE2940" name="PAGO_TARJETA_MEDIO_PAGO_FK">
+<createdBy>svasquez</createdBy>
+<createdTime>2025-09-09 23:30:40 UTC</createdTime>
+<generatorID>78AD826D-61E0-A7B7-F7A7-C261FBC9F91F</generatorID>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41E334DC-55F3-D71B-7F0F-88B358CF9853"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

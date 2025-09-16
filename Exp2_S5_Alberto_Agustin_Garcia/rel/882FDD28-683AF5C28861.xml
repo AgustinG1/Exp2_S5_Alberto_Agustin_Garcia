@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="882FDD28-50ED-9AE9-CF65-683AF5C28861" mainViewID="4AEAB306-9C6A-DC8F-031D-7D33A8743733">
+<createdBy>svasquez</createdBy>
+<createdTime>2025-09-09 00:47:34 UTC</createdTime>
+<ownerDesignName>Sumativa S5</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

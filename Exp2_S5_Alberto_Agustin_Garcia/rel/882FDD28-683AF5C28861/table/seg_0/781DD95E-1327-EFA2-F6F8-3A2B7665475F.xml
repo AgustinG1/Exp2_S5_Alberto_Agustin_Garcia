@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="781DD95E-1327-EFA2-F6F8-3A2B7665475F" name="ESPECIALIDAD">
+<createdBy>svasquez</createdBy>
+<createdTime>2025-09-09 23:30:40 UTC</createdTime>
+<generatorID>6C17D893-6B52-C3BC-EDD4-178FD85CF504</generatorID>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_especialidad" id="B9FB5E64-E851-5CAA-CCF2-8786DE638264">
+<createdBy>svasquez</createdBy>
+<createdTime>2025-09-09 23:30:40 UTC</createdTime>
+<generatorID>846734FA-448D-D1C7-4CA1-E65211AF441B</generatorID>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>100</dataTypePrecision>
+<ownDataTypeParameters>,100,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_especialidad" id="89EA922F-3AF7-DBBE-3827-73671ACF0176">
+<createdBy>svasquez</createdBy>
+<createdTime>2025-09-09 23:30:40 UTC</createdTime>
+<generatorID>489A7F8E-E6E7-45DC-2092-60F77E3CE790</generatorID>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="988A6B10-AD9C-4DC6-BE24-90D41B14F9D7" name="ESPECIALIDAD_PK">
+<createdBy>svasquez</createdBy>
+<createdTime>2025-09-09 23:30:40 UTC</createdTime>
+<generatorID>C614D1C6-CE28-A6AF-22AC-4DD7CE6F9327</generatorID>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9FB5E64-E851-5CAA-CCF2-8786DE638264"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

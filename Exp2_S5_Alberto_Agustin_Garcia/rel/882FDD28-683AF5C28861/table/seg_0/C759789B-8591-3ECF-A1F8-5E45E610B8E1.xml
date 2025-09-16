@@ -1,0 +1,168 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C759789B-8591-3ECF-A1F8-5E45E610B8E1" name="PACIENTE">
+<createdBy>svasquez</createdBy>
+<createdTime>2025-09-09 01:20:30 UTC</createdTime>
+<generatorID>507E0441-C973-442E-CCB2-6AB94B472F40</generatorID>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_paciente" id="051B7EAF-1531-F8BF-01A2-505280F61069">
+<createdBy>svasquez</createdBy>
+<createdTime>2025-09-09 01:20:30 UTC</createdTime>
+<generatorID>916CFF98-AA14-3D82-824C-4B525890C994</generatorID>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1000</dataTypePrecision>
+<ownDataTypeParameters>,1000,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rut_paciente" id="0F8F3AAA-91AD-376A-BE8B-A267241345E2">
+<createdBy>svasquez</createdBy>
+<createdTime>2025-09-09 02:08:36 UTC</createdTime>
+<generatorID>F185E4D0-8423-4EF1-C3FB-A127E9C89F21</generatorID>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_paciente" id="33050B12-5EF4-4FE4-E0C8-E1D54EC289C0">
+<createdBy>svasquez</createdBy>
+<createdTime>2025-09-09 02:08:36 UTC</createdTime>
+<generatorID>132CB3CD-7B46-5B34-B7D3-56BDD1E65D82</generatorID>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="primer_apellido" id="063910F9-85CD-B0E7-716F-A458DDCE75CE">
+<createdBy>svasquez</createdBy>
+<createdTime>2025-09-09 02:08:36 UTC</createdTime>
+<generatorID>22587951-AF06-2CC5-2750-792B783A16D3</generatorID>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="segundo_apellido" id="23B942C9-5DE3-4EFB-C24D-FCA5F9A4B19A">
+<createdBy>svasquez</createdBy>
+<createdTime>2025-09-09 02:08:36 UTC</createdTime>
+<generatorID>01FEAE55-C5EB-1A19-B79D-8186978DF269</generatorID>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nac" id="41948A9D-6D33-126B-1D5C-52E602499FAA">
+<createdBy>svasquez</createdBy>
+<createdTime>2025-09-09 02:08:36 UTC</createdTime>
+<generatorID>45608CC1-93F1-9317-1280-8B2DC9016CFF</generatorID>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="D614D2FB-8AA6-8411-31EC-2293BEDA8218">
+<createdBy>svasquez</createdBy>
+<createdTime>2025-09-09 02:08:36 UTC</createdTime>
+<generatorID>4539D1E9-45A7-DDF3-2ADA-A0CCC5BCF097</generatorID>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGION_id_region" id="00B70471-07E7-D45C-6108-00C0260E54E7">
+<createdBy>Flekz13</createdBy>
+<createdTime>2025-09-15 01:19:19 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1424E697-9B92-00C1-714F-36BAE563C484" referredColumn="5F437D49-08DB-8975-0391-1B8E06D06098"/>
+</associations>
+</Column>
+<Column name="EXAMEN_id_examen" id="D81FF6BE-B733-8C46-FE5D-C19E8EC2C8F2">
+<createdBy>Flekz13</createdBy>
+<createdTime>2025-09-15 01:20:51 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD5F8C32-377C-9853-D482-C40AA5FA5CBA" referredColumn="A9D805E0-FD6B-D8D4-C265-331079A6146D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EC90E2DF-7C26-8C53-5520-3E61C6D1401F" name="PACIENTE_PK">
+<createdBy>svasquez</createdBy>
+<createdTime>2025-09-09 01:20:30 UTC</createdTime>
+<generatorID>53DD10FE-0A7E-92CF-81B9-D594698F92C8</generatorID>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="051B7EAF-1531-F8BF-01A2-505280F61069"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F3BB532-A464-F707-D2BA-B2C6A0C28CBB" name="PACIENTE_rut_paciente_UN">
+<createdBy>svasquez</createdBy>
+<createdTime>2025-09-09 02:08:36 UTC</createdTime>
+<generatorID>D8B38FF1-8184-8173-BFCC-32925A47171C</generatorID>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F8F3AAA-91AD-376A-BE8B-A267241345E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="16F1094A-CF79-101D-1795-CE6BA7E7AAC0" name="PACIENTE_REGION_FK">
+<createdBy>Flekz13</createdBy>
+<createdTime>2025-09-15 01:19:19 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00B70471-07E7-D45C-6108-00C0260E54E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A656E0D-A2EF-AF2F-4C03-A035EE4358D5" name="PACIENTE_EXAMEN_FK">
+<createdBy>Flekz13</createdBy>
+<createdTime>2025-09-15 01:20:51 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D81FF6BE-B733-8C46-FE5D-C19E8EC2C8F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

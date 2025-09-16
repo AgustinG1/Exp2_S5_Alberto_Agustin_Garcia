@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="03DD2A74-507F-C23D-5B05-DB979BE454A7" containerWithKeyObject="CD260B75-8306-549B-4FB5-DDB450DB8A3A" localFKIndex="B105377B-06B0-EEEA-E4DB-0D951E7139D1" name="MEDIO_PAGO_ATENCION_MEDICA_FK">
+<createdBy>svasquez</createdBy>
+<createdTime>2025-09-09 23:30:40 UTC</createdTime>
+<generatorID>3C17646F-B0F8-2544-9506-FC6134760545</generatorID>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<referredTableLongName>ATENCION_MEDICA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>62CA525C-8E76-9651-C24C-71C83ECBADFD</referredTableID>
+<keyObject>E4B47AFC-8962-AB86-73FD-8204DD3D1CF1</keyObject>
+<referredKeyID>E4B47AFC-8962-AB86-73FD-8204DD3D1CF1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_atencion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

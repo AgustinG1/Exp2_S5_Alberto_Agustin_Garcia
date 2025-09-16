@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CD260B75-8306-549B-4FB5-DDB450DB8A3A" name="MEDIO_PAGO">
+<createdBy>svasquez</createdBy>
+<createdTime>2025-09-09 02:08:36 UTC</createdTime>
+<generatorID>2E23C86E-B49E-C5D5-10B9-2729A3543C8B</generatorID>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_medio_pago" id="CA735836-F7C6-97E5-AFD1-16433B85FE5A">
+<createdBy>svasquez</createdBy>
+<createdTime>2025-09-09 02:08:36 UTC</createdTime>
+<generatorID>F7D05C2E-2462-C697-A41C-E2CD0D5C8198</generatorID>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1000</dataTypePrecision>
+<ownDataTypeParameters>,1000,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_medio_pago" id="A6C1D079-D7B1-B1CE-8FC1-1E03B4BFA4D4">
+<createdBy>svasquez</createdBy>
+<createdTime>2025-09-09 02:08:36 UTC</createdTime>
+<generatorID>12CF7C5E-13F7-0228-5838-ED7D88407A1C</generatorID>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="CB4C753C-B8E6-A275-36C9-94BC11918B6B">
+<createdBy>svasquez</createdBy>
+<createdTime>2025-09-09 02:08:36 UTC</createdTime>
+<generatorID>36C23044-90BB-F3EC-DBBF-ED28C007AA98</generatorID>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATENCION_MEDICA_id_atencion" id="01FC1BED-99C6-ED42-C56F-F1911CE55F0D">
+<createdBy>svasquez</createdBy>
+<createdTime>2025-09-09 23:30:40 UTC</createdTime>
+<generatorID>FF126767-B525-44DF-F839-FCE14677534C</generatorID>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1000</dataTypePrecision>
+<ownDataTypeParameters>,1000,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="03DD2A74-507F-C23D-5B05-DB979BE454A7" referredColumn="D7139197-E1BA-8923-CE79-F1D8055AB1FC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6929989B-5396-7FC2-36CE-16F788355017" name="MEDIO_PAGO_PK">
+<createdBy>svasquez</createdBy>
+<createdTime>2025-09-09 02:08:36 UTC</createdTime>
+<generatorID>689D64AA-7952-0D76-1918-5F2C6CB40DC4</generatorID>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA735836-F7C6-97E5-AFD1-16433B85FE5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="19CF6774-FB1B-A4DB-35C6-05A79EF69EFC" name="MEDIO_PAGO__IDX">
+<createdBy>svasquez</createdBy>
+<createdTime>2025-09-09 23:30:40 UTC</createdTime>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>3C17646F-B0F8-2544-9506-FC6134760545</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="01FC1BED-99C6-ED42-C56F-F1911CE55F0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B105377B-06B0-EEEA-E4DB-0D951E7139D1" name="MEDIO_PAGO_ATENCION_MEDICA_FK">
+<createdBy>svasquez</createdBy>
+<createdTime>2025-09-09 23:30:40 UTC</createdTime>
+<generatorID>3C17646F-B0F8-2544-9506-FC6134760545</generatorID>
+<ownerDesignName>Exp2_S5_Alberto_Agustin_Garcia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01FC1BED-99C6-ED42-C56F-F1911CE55F0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
